@@ -1,0 +1,95 @@
+/* ------------common css start--------- */
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* ------------common css end --------- */
+
+body {
+    background-color: #000000ab;
+}
+
+.admin_box {
+    background-color: aqua;
+    text-align: center;
+    width: 65%;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 15px;
+    box-shadow: 9px 9px 9px rgb(31, 140, 212);
+}
+.admin_box img {
+    margin: 30px 0 20px 0;
+    border-radius: 50%;
+    border: 3px dashed #000;
+}
+.admin_box h1 {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+
+label,input {
+    display: block;
+    width: 60%;
+    height:35px ;
+    margin: auto;
+    padding: 8px;
+}
+label,input span {
+    font-size: 30px;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+
+input {
+    background: transparent;
+    color: #000;
+    border: 2px solid #000;
+    border-radius: 7px;
+    transition: all linear .5s;
+}
+
+input:hover{
+    background-color:#aa7fffc1 ;
+    color: #000;
+}
+
+input::placeholder {
+    color: #000;
+    font-size: 18px;
+}
+
+p {
+    font-size: 25px;
+    font-weight: 400;
+    padding: 15px 0 30px 0;
+}
+
+p span {
+    font-weight: 600;
+}
+
+.btn {
+    font-size: 18px;
+    width: 15%;
+    height: 40px;
+    margin: auto;
+    margin-top: 15px;
+}
+
+
+
+
+
+
+
